@@ -1017,7 +1017,15 @@ section {
   width: 100%;
   background: #fff;
 }
+.touch img{
+  width: 100%;
+}
 
+@media only screen and (max-width: 767px) {
+  .touch img{
+    width: 100%;
+  } 
+}
 .contact .info i {
   font-size: 20px;
   color: #0563bb;
