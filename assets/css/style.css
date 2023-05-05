@@ -349,6 +349,25 @@ h6 {
   }
 }
 
+
+/* Resume Download */
+.resume-download {
+  margin-top: 2em;
+}
+.custom-btn{
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.custom-btn:hover {
+  color: white;
+  background: #0678e3;
+}
+/* End */
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1176,10 +1195,11 @@ section {
 }
 
 #footer p {
+  width: 75%;
+  margin: 25px auto;
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
 }
 
 #footer .social-links {
